@@ -23,10 +23,15 @@ article {
     padding: 5px;
 }
 .szamok {
-   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 .szamok button {
-    
+    flex: 0 0 30%;
+    max-width: 30%;
+    margin: 2px;
+    padding: 7px 0px;
 }
 .muvjelek {
     grid-area: muv;
@@ -36,6 +41,5 @@ article {
     grid-gap: 10px;
 }
 .muvjelek button {
-  
     width: 30px;
 }
